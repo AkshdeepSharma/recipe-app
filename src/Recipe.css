@@ -1,0 +1,37 @@
+.recipe-card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 31%;
+  min-width: 240px;
+  margin: 1%;
+  background: white;
+  display: inline-block;
+}
+
+.recipe-card:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.recipe-card-content{
+  margin-left: 13px;
+  padding: 16px;
+  font: Arial;
+}
+
+.recipe-card-img{
+  height: 50%;
+  overflow: hidden;
+}
+
+.recipe-card img{
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  height: 350px;
+}
+
+.recipe-title {
+  margin: 0;
+}
